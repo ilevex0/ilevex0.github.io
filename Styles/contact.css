@@ -1,0 +1,20 @@
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+}
+.main-contact__title{
+    font-size: 32px;
+    margin: 30px 0px;
+}
+.main-contact__information {
+    margin: 1em 0 1em 0;
+}
+.main-contact__information__bold {
+    font-weight: 500;
+    color: var(--who-is-me-description-strong);
+}
+.main-contact__link {
+    font-weight: 500;
+    color: var(--who-is-me-description-strong);
+}

@@ -1,0 +1,208 @@
+.who-is-me__description__strong {
+    color: var(--who-is-me-description-strong);
+    font-weight: 500;
+}
+.who-is-me__description__bold {
+    color: var(--who-is-me-description-strong);
+    font-weight: 500;
+}
+.container__list__description {
+    margin-bottom: 2em;
+}
+.skills__description {
+    margin: 1.5em;
+    font-size: 24px;
+    margin-bottom: 2em;
+}
+.who-is-me__description__link {
+    color: var(--who-is-me-description-strong);
+    font-weight: 500;
+}
+.who-is-me__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+.who-is-me__container__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+}
+.container__list__title {
+    font-size: 48px;
+    margin: 0.75em;
+    white-space: nowrap;
+}
+.container__list__description {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0.5em;
+}
+.container__image {
+    max-height: 600px;
+    border-radius: 40px;
+    border-left: 2px solid var(--button-bg-hover);
+    border-right: 2px solid var(--button-bg-hover);
+}
+
+/* SKILLS */
+.skills__div {
+    max-width: auto;
+}
+.skills__title {
+    font-size: 36px;
+    margin: 1em;
+}
+.skills__list {
+    display: flex;
+    gap: 30px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-bar-not-active) var(--body-bg-color); /* Cor da barra de rolagem e do fundo */
+    background: var(--skills-bg);
+    border-left: 1px solid var(--button-bg-hover);
+    border-right: 1px solid var(--button-bg-hover);
+    border-radius: 40px;
+}
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 15%;
+    min-width: 100px;
+    max-width: 500px;
+    padding: 2em;
+}
+.skills__item img {
+    width: 100%;
+}
+
+/* CONTACT */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 5em;
+}
+.contact-container__list__description {
+    font-size: 24px;
+    text-indent: 25px;
+}
+.contact-button-end {
+    align-self: center;
+    padding: 1em;
+    border-radius: 14px;
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.25s;
+    box-shadow: 2px 2px 1px var(--button-bg-hover);
+    font-size: 24px;
+}
+.skills__list__contact__end-effect {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-bar-not-active) var(--body-bg-color); /* Cor da barra de rolagem e do fundo */
+    background: var(--skills-bg);
+    border-left: 1px solid var(--button-bg-hover);
+    border-right: 1px solid var(--button-bg-hover);
+    border-radius: 40px;
+    text-align: center;
+    justify-self: center;
+    padding: 2em;
+    max-width: 500px;
+}
+.contact-button-end:hover{
+    color: var(--button-color-hover);
+    background-color: var(--button-bg-hover);
+}
+@media screen and (max-width: 974px) {
+    .who-is-me__container {
+        gap: 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .who-is-me__container__list {
+        gap: 30px;
+        width: 80%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 590px){
+    .skills__list__contact__end-effect {
+        gap: 25px;
+        padding: 2em;
+        max-width: 80vw;
+        min-width: 80vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container__image {
+        max-height: 100%;
+        max-width: 75%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .main {
+        margin: 5em 0 5em 0 !important;
+    }
+    .who-is-me__container {
+        gap: 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container__list__title {
+        margin: 0.5em 0.75em 0.5em;
+    }
+    .container__list__description {
+        margin: 0;
+    }
+    .who-is-me__container__list {
+        gap: 30px;
+        width: 80%;
+        height: 100%;
+    }
+    .container__list__title {
+        font-size: 48px;
+        margin: 0.75em;
+    }
+    .contact-container__list__description {
+
+        text-indent: 0px;
+        font-size: 20px;
+    }
+    .skills__item {
+        gap: 20px;
+        min-width: 70px;
+        max-width: 500px;
+        padding: 2em;
+        white-space: wrap;
+    }
+    .skills__list {
+        gap: 5px;
+    }
+    .contact-button-end {
+        white-space: nowrap;
+    }
+    .contact {
+        margin: 3em;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 375px){
+    .skills__item {
+        gap: 15px;
+        min-width: 50px;
+        white-space: wrap;
+    }
+}
