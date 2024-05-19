@@ -88,6 +88,7 @@ body {
 }
 
 .projects__container__item{
+    max-width: 400px;
     width: 100%; /* AJUSTA O TAMANHO DE CADA ITEM*/
     display: flex;
     flex-direction: column;
@@ -95,7 +96,11 @@ body {
     /*background-color: var(--bg-project-color);*/
     border-radius: 10px;
 }
+.projects__container__image {
+    max-width: 400px;
+}
 .projects__container__image img{
+    max-width: 400px;
     width: 100%;
     height: auto;
     /* width: 320px; */
