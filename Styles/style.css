@@ -77,6 +77,13 @@ body {
     font-size: 24px;
     margin: 30px 0px;
 }
+.main__description {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+.main__bold {
+    color: var(--logo-color);
+}
 .projects {
     display: flex;
     overflow: auto;
