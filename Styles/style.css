@@ -124,7 +124,7 @@ body {
 }
 .projects__container__description {
     width: 100%; /* Deixe o título ocupar a largura total do contêiner */
-    height: auto; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
     line-height: 1.5;
     text-align: left;
 }
